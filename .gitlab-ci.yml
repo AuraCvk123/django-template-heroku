@@ -5,6 +5,8 @@ stages:
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  HEROKU_API_KEY
+  HEROKU_APP_NAME
 
 cache:
   paths:
